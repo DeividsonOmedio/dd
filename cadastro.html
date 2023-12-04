@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/styleflex.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <!--Area de cabeçalho-->
+    <header>
+        <nav class="header">
+            <ul class="nav-menu">
+                <img src="./_img/_logos/logo-shop-cabecalho.png" alt="Logo">
+                <li><a href="#">Notebooks</a></li>
+                <li><a href="#">Desktops</a></li>
+                <li><a href="#">Redes</a></li>
+                <li><a href="#">Impressoras</a></li>
+                <li><a href="#">Gamer</a></li>
+                <li><a href="#">Outros Produtos</a></li>
+            </ul>
+            <ul class="nav-items">
+                <li><button><a href="#">Ofertas</a></button></li>
+                <li><a href="#"><img src="./_img/lupa.png" alt="Lupa"></i></a></li>
+                <li><a href="#"><img src="./_img/carrinho.png" alt="Carrinho de Compras"></a></li>
+                <li><a href="#"><img src="./_img/foto_perfil.png" alt="Foto de Perfil"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <hr>
+
+    <nav class="nav-path">
+        <span><a href="index.html">Início</a></span>
+        <span class="spn-blue">›</span>
+        <span><a href="login.html">Login</a></span>
+        <span class="spn-blue">›</span>
+        <span><a href="cadastro.html">Cadastro</a></span>
+    </nav>
+
+    <!--Bloco main da cadastro-->
+
+    <main>
+        <div>
+            <h1>Cadastro</h1>
+            <button><a href="login.html">Login</a></button>
+        </div>
+
+    <!--Area de cadastro para criação de conta-->
+            
+        <form action="" id="formulario">
+            <label for="email-input">Email<span class="spn-red">*</span></label>
+            <input type="email" name="email" id="email-input" placeholder="Ex.: ddtech@email.com" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <hr>
+
+            <label for="name-input">Nome<span class="spn-red">*</span></label>
+            <input type="text" name="nome" id="name-input" placeholder="Ex.: José" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="sobrenome-input">Sobrenome<span class="spn-red">*</span></label>
+            <input type="text" name="sobrenome" id="sobrenome-input" placeholder="Ex.: Dias dos Santos" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <hr>
+
+            <label for="cpf-input">CPF<span class="spn-red">*</span></label>
+            <input type="number" name="cpf" id="cpf-input" placeholder="Ex.: 01234567899" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="endereco-input">Endereço<span class="spn-red">*</span></label>
+            <input type="text" name="endereco" id="endereco-input" placeholder="Ex.: Rua JavaScript, 123 - Bairro HTML - SP" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="cidade-input">Cidade<span class="spn-red">*</span></label>
+            <input type="text" name="cidade" id="cidade-input" placeholder="Ex.: São Paulo" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="estado-input">Estado<span class="spn-red">*</span></label>
+            <select name="estado" id="estado-input" required>
+                <option value="sp">São Paulo</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="ba">Bahia</option>
+                <option value="pa">Pará</option>
+                <option value="pe">Pernambuco</option>
+            </select>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="cep-input">CEP<span class="spn-red">*</span></label>
+            <input type="text" name="cep" id="cep-input" placeholder="Ex.: 12345678" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="pais-input">País<span class="spn-red">*</span></label>
+            <select name="pais" id="pais-input" required>
+                <option value="br">Brasil</option>
+            </select>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <label for="celular-input">Celular<span class="spn-red">*</span></label>
+            <input type="tel" name="celular" id="celular-input" placeholder="Ex.: +55 (35)91234-5678" required>
+            <p class="helper-text">Mensagem de ajuda</p>
+
+            <button type="submit" id="btn-criar-conta">Criar Conta</button>
+
+            <hr>
+
+        </form>
+    </main>
+
+    <!--Inicio de footer-->
+
+    <footer id="footer">
+        <div class="div-news">
+            <div>
+                <h3>Inscreva-se em nossa Newsletter.</h3>
+                <p>Seja o primeiro a saber das últimas ofertas.</p>
+            </div>
+            <div>
+                <input type="email" name="" id="" placeholder="Seu Email">
+                <button>Inscreva-se</button>
+            </div>
+        </div>
+        <div class="footer-start"">
+            <div>
+                <ul>
+                    <li>Informação</li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Política de Privacidade</a></li>
+                    <li><a href="">Procurar</a></li>
+                    <li><a href="">Termos</a></li>
+                    <li><a href="">Encomendas e Devoluções</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Busca Avançada</a></li>
+                    <li><a href="">Assinatura Newsletter</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Peças para PC</li>
+                    <li><a href="">CPU</a></li>
+                    <li><a href="">Discos rigidos (internos)</a></li>
+                    <li><a href="">Placas Gráficas</a></li>
+                    <li><a href="">Teclados/Mouses</a></li>
+                    <li><a href="">Gabinete/Fontes de Alimentação/Resfriamento</a></li>
+                    <li><a href="">Memoria RAM</a></li>
+                    <li><a href="">Programas</a></li>
+                    <li><a href="">Alto-falantes/Fones de ouvido</a></li>
+                    <li><a href="">Placas mãe</a></li>
+            </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Desktop PCs</li>
+                    <li><a href="">Computadores personalizados</a></li>
+                    <li><a href="">Servidores</a></li>
+                    <li><a href="">PCs multifuncionais</a></li>
+                    <li><a href="">MSI</a></li>
+                    <li><a href="">Computadore HP/Compaq</a></li>
+                    <li><a href="">PCs ASUS</a></li>
+                    <li><a href="">PCs técnicos</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Notebooks</li>
+                    <li><a href="">Peças para Notebooks</a></li>
+                    <li><a href="">Tablets e Pads</a></li>
+                    <li><a href="">Netbooks</a></li>
+                    <li><a href="">Notebooks Gamers</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Sobre nós:</li>
+                    <li>Deividson - <a href="">LinkedIn</a></li>
+                    <li>Devison - <a href="">LinkedIn</a></li>
+                    <li>Diego - <a href="">LinkedIn</a></li>
+                    <li>Emerson - <a href="">LinkedIn</a></li>
+                    <li>Gabriel - <a href="">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer-end">
+            <div class="redes-sociais">
+                <img src="_img/_logos/logo-facebook.png" alt="Facebook">
+                <img src="_img/_logos/logo-instagram.png" alt="Instagram">
+            </div>
+
+            <div class="cartoes">
+                <img src="_img/_logos/cartao-pagamento-americanexpress.png" alt="American Express">
+                <img src="_img/_logos/cartao-pagamento-discover.png" alt="Discover">
+                <img src="_img/_logos/cartao-pagamento-maestro.png" alt="Maestro">
+                <img src="_img/_logos/cartao-pagamento-paypal.png" alt="PayPal">
+                <img src="_img/_logos/cartao-pagamento-visa.png" alt="Visa">
+            </div>
+
+            <span class="copyright">Copyright&copy;2023</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

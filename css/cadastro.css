@@ -1,0 +1,60 @@
+main div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    margin: 1%;
+}
+
+main div button {
+    width: 10rem;
+    height: 2rem;
+    background-color: white;
+    border: 2px solid #0156ff;
+    border-radius: 2rem;
+}
+
+main div button a {
+    text-decoration: none;
+    color: #0156ff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+input, select {
+    height: 2.5rem;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 60%;
+    height: auto;
+    padding-left: 3%;
+    font-weight: bolder;
+}
+
+#btn-criar-conta {
+    width: 10rem;
+    height: 2rem;
+    background-color: #0156ff;
+    color: white;
+    border-radius: 2rem;
+    border: transparent;
+}
+
+/* Estilizização dinaminca */
+
+.spn-red {
+    color: red;
+}
+
+.helper-text {
+    display: none;
+    color: darkred;
+    font-style: italic;
+}
+
+.visible {
+    display: block;
+}
